@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
-    "name": "[your extension name here]",
-    "description": "[your extension description here]",
+    "name": "The Truth about Coding",
+    "description": "Seeks and replaces 'coding' with a more accurate description.",
     "version": "1.0",
     "content_scripts": [
         {
