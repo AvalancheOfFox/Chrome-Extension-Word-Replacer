@@ -12,7 +12,7 @@ for (var i = 0; i < elements.length; i++) {
         if (node.nodeType === 3) {
             var text = node.nodeValue;
             // regex to do the replacing
-            var replacedText = text.replace(/\men\b/gi, '[women]');
+            var replacedText = text.replace(/\men\b/gi, 'women');
             // checks if the changed text DOES NOT equal orig - if so, performs the replacement
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
